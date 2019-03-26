@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7cbb3223-c16a-4fa5-9b9d-13d5dda96cc9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/src/map(1).js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="第2分部地图_ Division 2地点的交互式地图.html" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Pictures/第2分部地图_ Division 2地点的交互式地图.html">
+      <file leaf-file-name="json.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/json.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="22" lean-forward="true" selection-end-line="364" selection-end-column="1630" />
+            <state relative-caret-position="181">
+              <caret line="56806" column="20" lean-forward="true" selection-start-line="56806" selection-start-column="20" selection-end-line="56806" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -38,6 +40,11 @@
       <find>Cl.dispatch</find>
       <find>map.js</find>
       <find>隐藏所以</find>
+      <find>Copy</find>
+      <find>map(1)</find>
+      <find>Free users can mark up to</find>
+      <find>createElement</find>
+      <find>o.a</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -51,6 +58,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/翻译.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/map(1).js" />
+        <option value="$PROJECT_DIR$/src/json.js" />
       </list>
     </option>
   </component>
@@ -63,10 +72,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="14" />
+    <option name="y" value="126" />
     <option name="width" value="1440" />
-    <option name="height" value="787" />
+    <option name="height" value="792" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -126,32 +136,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553586546304</updated>
-      <workItem from="1553586547523" duration="1626000" />
+      <workItem from="1553586547523" duration="2859000" />
+      <workItem from="1553589502453" duration="3312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1626000" />
+    <option name="totallyTimeSpent" value="6171000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="788" extended-state="6" />
+    <frame x="14" y="126" width="1440" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
@@ -177,30 +188,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/map(1).js">
+    <entry file="file://$USER_HOME$/Pictures/第2分部地图_ Division 2地点的交互式地图.html" />
+    <entry file="file://$PROJECT_DIR$/src/markdown-it.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret column="596187" selection-start-column="596187" selection-end-column="596187" />
+        <state relative-caret-position="353">
+          <caret line="1" column="4144" selection-start-line="1" selection-start-column="4144" selection-end-line="1" selection-end-column="4144" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1199" selection-start-line="1199" selection-end-line="2359" selection-end-column="7" />
+        <state relative-caret-position="23">
+          <caret line="321" column="52" lean-forward="true" selection-start-line="321" selection-start-column="52" selection-end-line="321" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#font#0;n#span#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Pictures/第2分部地图_ Division 2地点的交互式地图.html">
+    <entry file="file://$PROJECT_DIR$/src/map(1).js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="22" lean-forward="true" selection-end-line="364" selection-end-column="1630" />
+        <state relative-caret-position="120">
+          <caret line="33911" column="13" lean-forward="true" selection-start-line="33911" selection-start-column="13" selection-end-line="33911" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="56806" column="20" lean-forward="true" selection-start-line="56806" selection-start-column="20" selection-end-line="56806" selection-end-column="20" />
         </state>
       </provider>
     </entry>
