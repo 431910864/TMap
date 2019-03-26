@@ -1,0 +1,288 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8"/>
+    <style>
+        textarea{
+            display: inline-block;
+            width: 400px;
+            height: 300px;
+            vertical-align: middle;
+        }
+
+        button{
+            cursor: pointer;
+            font-size: 14px;
+            color: #FFFFFF;
+            line-height: 20px;
+            padding: 5px 20px;
+            font-size: 14px;
+            border-radius: 2px;
+            outline: none;
+            border: none;
+            text-align: center;
+            width: 100px;
+            height: 30px;
+            background:#128BF7
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <textarea id="old"></textarea>
+    <button id="zhToEn">中翻英</button>
+    <button id="zhToHk">中翻繁体</button>
+    <textarea id="result"></textarea>
+
+
+    <script src="./json.js"></script>
+    <script src="./jquery.min.js"></script>
+    <script src="./md5.js"></script>
+    <script type="text/javascript">
+
+
+function isEmptyObject(obj) {
+    if (typeof obj == 'object') {
+    　　for (var key in obj){
+    　　　　return false;//返回false，不为空对象
+    　　}
+    }
+　　return true;//返回true，为空对象
+}
+function isNumber(x) {
+    if (typeof x == 'number') return true
+    if (typeof x == 'string') {
+        var y = String(x).indexOf(".") + 1;//获取小数点的位置
+        var count = String(x).length - y;//获取小数点后的个数
+        if(y > 0) {
+            return true
+        } else {
+            return false
+        }
+    } else {
+        return false
+    }
+}
+function isImage(x) {
+    if (typeof x == 'string') {
+        var y = String(x).indexOf("image") + 1;//获取小数点的位置
+        var count = String(x).length - y;//获取小数点后的个数
+        if(y > 0) {
+            return true
+        } else {
+            return false
+        }
+    } else {
+        return false
+    }
+}
+
+var filterJson = async (JsonData) => {
+    return new Promise(async(resolve) => {
+        if (!isEmptyObject(JsonData)) {
+            for (var i in JsonData) {
+                if (JsonData[i]) {
+                    if (JsonData[i] && !isImage(JsonData[i]) && !isNumber(JsonData[i]) && typeof JsonData[i] == 'string' && JsonData[i].indexOf('https://') <= -1) {
+                        // console.info(JsonData[i])
+                        JsonData[i] = await postFY(JsonData[i])
+                        // console.info(2)
+                        // console.info(JsonData)
+                    }
+                    if (!isEmptyObject(JsonData[i])) {
+                        filterJson(JsonData[i])
+                    }
+                }
+            }
+        }
+        console.info(1)
+    })
+}
+function postFY(text) {
+    return new Promise(async(resolve) => {
+        if (!text) {
+            resolve(text)
+            return
+        }
+        var appid = '20190326000281249';//－－－－－－－这里自己申请哈
+        var key = 'R3kHlgwokeo9B9CbRruu';  //－－－－－－－这里自己申请哈
+        var salt = (new Date).getTime();
+        var from = 'en';
+        var to = 'zh';
+        var query = text;
+        var str1 = appid + query + salt +key;
+        var sign = md5(str1);
+        $.ajax({
+            url: 'http://api.fanyi.baidu.com/api/trans/vip/translate',
+            type: 'get',
+            dataType: 'jsonp',
+            data: {
+                q: query,
+                appid: appid,
+                salt: salt,
+                from: from,
+                to: to,
+                sign: sign
+            },
+            success: function (data) {
+                resolve(data.trans_result[0].dst)
+            }
+        })
+    })
+}
+function testP() {
+    return new Promise(async(resolve) => {
+        console.info(1)
+        setTimeout(() => {
+            resolve()
+        }, 1000)
+    })
+}
+$("#zhToEn").click(async () => {
+    var jsonObj = window.mapData;
+    var q='';
+
+    var old = [];
+    // for(var attr in jsonObj) {
+    //     // console.log(attr);//attr
+    //     old.push(attr)
+    //     // console.log(jsonObj[attr]);//value
+    //     q=q+jsonObj[attr]+"\\"
+    // }
+    filterJson(jsonObj)
+    // console.info(await postFY('do you like'))
+    setInterval(() => {
+        console.info(JSON.stringify(jsonObj))
+    }, 1000)
+    return;
+
+
+
+    var appid = '20190326000281249';//－－－－－－－这里自己申请哈
+    var key = 'R3kHlgwokeo9B9CbRruu';  //－－－－－－－这里自己申请哈
+
+    var salt = (new Date).getTime();
+    var from = 'en';
+    var to = 'zh';
+
+    var query =q.substr(0,q.length-1);
+    var str1 = appid + query + salt +key;
+    var sign = md5(str1);
+console.info(query)
+    return
+    $.ajax({
+        url: 'http://api.fanyi.baidu.com/api/trans/vip/translate',
+        type: 'get',
+        dataType: 'jsonp',
+        data: {
+            q: query,
+            appid: appid,
+            salt: salt,
+            from: from,
+            to: to,
+            sign: sign
+        },
+        success: function (data) {
+            console.info(data)
+            var transResult = data.trans_result[0].dst;
+            transResult = transResult.replace(/\s+/g,"");
+            transResult = transResult.split("/")
+
+            console.log(old,transResult)
+
+
+
+            var result="{";
+            for(var item =0;item < old.length;item++){
+                var kk ="  "+'"'+old[item]+'"'+":"+'"'+transResult[item]+'"';
+                if(item != (old.length -1)){
+                    kk = kk+","
+                }
+
+                result = result+"\n"+kk;
+            }
+            result = result+"\n"+"}";
+
+            console.log(result)
+            $("#result").val(result)
+
+        }
+    });
+
+})
+
+$("#zhToHk").click(function () {
+
+    var jsonObj = JSON.parse($("#old").val());
+    console.log(jsonObj);
+
+    var q='';
+
+    var old = [];
+    for(var attr in jsonObj) {
+        console.log(attr);//attr
+        old.push(attr)
+        console.log(jsonObj[attr]);//value
+        q=q+jsonObj[attr]+"\\"
+    }
+
+
+
+
+    var appid = '20190326000281249';//－－－－－－－这里自己申请哈
+    var key = 'R3kHlgwokeo9B9CbRruu';  //－－－－－－－这里自己申请哈
+    var salt = (new Date).getTime();
+    var from = 'zh';
+    var to = 'cht';
+
+    var query =q.substr(0,q.length-1);
+    var str1 = appid + query + salt +key;
+    var sign = md5(str1);
+
+
+    $.ajax({
+        url: 'http://api.fanyi.baidu.com/api/trans/vip/translate',
+        type: 'get',
+        dataType: 'jsonp',
+        data: {
+            q: query,
+            appid: appid,
+            salt: salt,
+            from: from,
+            to: to,
+            sign: sign
+        },
+        success: function (data) {
+            console.info(data)
+            var transResult = data.trans_result[0].dst;
+            transResult = transResult.replace(/\s+/g,"");
+            transResult = transResult.split("\\");
+
+            console.log(old,transResult)
+
+
+
+            var result="{";
+            for(var item =0;item < old.length;item++){
+                var kk ="  "+'"'+old[item]+'"'+":"+'"'+transResult[item]+'"';
+                if(item != (old.length -1)){
+                    kk = kk+","
+                }
+
+                result = result+"\n"+kk;
+            }
+            result = result+"\n"+"}";
+            console.log(result)
+            $("#result").val(result)
+
+        }
+    });
+
+})
+
+
+
+
+</script>
+</body>
