@@ -2,83 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cbb3223-c16a-4fa5-9b9d-13d5dda96cc9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12533(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12533(2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12533(3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12533(4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12533(5).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12533.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12534(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12534(2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12534(3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12534(4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12534(5).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12534.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12535(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12535(2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12535(3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12535(4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12535(5).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12535.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12536(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12536(2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12536(3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12536(4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12536(5).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12536.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ads(1).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ads.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analytics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca-pub-8482635703185884.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css(1)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d_vbiawPdxB.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/division2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f(1).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f(2).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f(3).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/google4_hdpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/googlemaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infowindow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map(1).js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown-it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/marker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/md5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/onion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/osd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/overlay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saved_resource(1).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saved_resource(2).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saved_resource(3).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saved_resource(4).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saved_resource.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sdk(1).js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sdk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toastr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/translate_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/translateelement.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/undo_poly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zrt_lookup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/翻译.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/翻译.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/翻译.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,11 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="翻译.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/翻译.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -105,6 +42,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/翻译.html" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -131,6 +75,11 @@
             <path>
               <item name="TomClancyIsTheDivision2" type="b2602c69:ProjectViewProjectNode" />
               <item name="TomClancyIsTheDivision2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TomClancyIsTheDivision2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TomClancyIsTheDivision2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,12 +122,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553586546304</updated>
-      <workItem from="1553586547523" duration="26000" />
+      <workItem from="1553586547523" duration="485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26000" />
+    <option name="totallyTimeSpent" value="485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="792" extended-state="6" />
@@ -214,6 +163,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/翻译.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
         </state>
       </provider>
     </entry>
