@@ -23350,10 +23350,7 @@ document.createTextNode = (function(fn) {
                         }, o.a.createElement("a", {
                             className: "marker-mark " + (n ? "" : "needs-upgrade"),
                             onClick: n ? this.onClickMarkAsFound : null
-                        }, "标记为", e ? " 未找到" : "发现"), !t && o.a.createElement("small", null, "免费用户可以标记为", window.mapData.maxMarkedLocations, "个位置. ", o.a.createElement("a", {
-                            href: window.baseUrl + "/upgrade",
-                            target: "_blank"
-                        }, "升级到专业版"), " 无限追踪!"), !t && r && o.a.createElement("small", null, o.a.createElement("br", null), "It looks like you've already marked more than 200 locations, so we've raised your limit to ", Di))
+                        }, "标记为", e ? "未找到" : "找到"), !t && r && o.a.createElement("small", null, o.a.createElement("br", null), "It looks like you've already marked more than 200 locations, so we've raised your limit to ", Di))
                     }
                 }, {
                     key: "onClickMarkAsFound",
