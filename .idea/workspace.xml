@@ -566,8 +566,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -709,12 +709,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553586546304</updated>
       <workItem from="1553586547523" duration="2859000" />
-      <workItem from="1553589502453" duration="11149000" />
+      <workItem from="1553589502453" duration="11222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14008000" />
+    <option name="totallyTimeSpent" value="14081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="141" y="132" width="1311" height="788" extended-state="0" />
@@ -1329,8 +1329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
