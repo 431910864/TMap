@@ -23741,7 +23741,7 @@ document.createTextNode = (function(fn) {
                                 },
                                 title: e.title,
                                 icon: {
-                                    url: window.baseUrl + (r ? MARKER_IMAGES_URL_FOUND : MARKER_IMAGES_URL),
+                                    url: (r ? MARKER_IMAGES_URL_FOUND : MARKER_IMAGES_URL),
                                     size: qi,
                                     scaledSize: new google.maps.Size(33, MARKER_IMAGES_HEIGHT / 2),
                                     origin: new google.maps.Point(0, MARKER_IMAGES[n.id] / 2)
@@ -23903,7 +23903,7 @@ document.createTextNode = (function(fn) {
                     key: "setLocationFound",
                     value: function(e, t) {
                         var n = Vi[e];
-                        n.icon.url = window.baseUrl + (t ? MARKER_IMAGES_URL_FOUND : MARKER_IMAGES_URL), n.setIcon(n.icon), t && !Xi && n.setMap(null)
+                        n.icon.url = (t ? MARKER_IMAGES_URL_FOUND : MARKER_IMAGES_URL), n.setIcon(n.icon), t && !Xi && n.setMap(null)
                     }
                 }, {
                     key: "panToLocation",
