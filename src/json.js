@@ -56829,3 +56829,17 @@ window.mapData = {
     "sharedNotes": [],
     "maxMarkedLocations": 100
 };
+// Downtown West 西下城区
+// Foggy Bottom 雾谷
+// Constitution Hall 宪政大厅
+// West Potomac Park 西波托马克公园
+// Downtown East 东下城区
+// Federal Triangle 联邦三角
+// Judiciary Square 司法广场
+// East Mall 东区广场
+// DZ East 东暗区
+// Capitol Hill 国会山庄
+// Southwest 西南区
+// DZ South 南暗区
+// Roosevelt lsland 罗斯福岛
+// DZ West 西暗区

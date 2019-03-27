@@ -24084,7 +24084,7 @@ document.createTextNode = (function(fn) {
             })
         };
         var il = [{
-            title: "Southwest",
+            title: "西南区",
             coords: [{
                 lng: -77.0285851,
                 lat: 38.8877596
@@ -24126,7 +24126,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.8877596
             }]
         }, {
-            title: "East Mall",
+            title: "东区广场",
             coords: [{
                 lng: -77.0323563,
                 lat: 38.8920349
@@ -24189,7 +24189,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.8920349
             }]
         }, {
-            title: "DZ East",
+            title: "东暗区",
             isDarkZone: !0,
             coords: [{
                 lng: -77.0059204,
@@ -24229,7 +24229,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.8920516
             }]
         }, {
-            title: "DZ West",
+            title: "西暗区",
             isDarkZone: !0,
             coords: [{
                 lng: -77.0577729,
@@ -24317,7 +24317,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.9026937
             }]
         }, {
-            title: "DZ South",
+            title: "南暗区",
             isDarkZone: !0,
             coords: [{
                 lng: -77.0269704,
@@ -24360,7 +24360,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.8831827
             }]
         }, {
-            title: "West End",
+            title: "西区",
             coords: [{
                 lng: -77.0488465,
                 lat: 38.8973707
@@ -24507,7 +24507,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.8973707
             }]
         }, {
-            title: "Capitol Hill",
+            title: "国会山庄",
             coords: [{
                 lng: -77.0121861,
                 lat: 38.892085
@@ -24537,7 +24537,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.892085
             }]
         }, {
-            title: "Judiciary Square",
+            title: "司法广场",
             coords: [{
                 lng: -77.0151901,
                 lat: 38.8921351
@@ -24570,7 +24570,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.8921351
             }]
         }, {
-            title: "Downtown East",
+            title: "东下城区",
             coords: [{
                 lng: -77.0318842,
                 lat: 38.8961266
@@ -24603,7 +24603,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.8961266
             }]
         }, {
-            title: "Federal Triangle",
+            title: "联邦三角",
             coords: [{
                 lng: -77.0335793,
                 lat: 38.8964773
@@ -24642,7 +24642,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.8964773
             }]
         }, {
-            title: "White House",
+            title: "白宫",
             coords: [{
                 lng: -77.0336115,
                 lat: 38.9013118
@@ -24660,7 +24660,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.9013118
             }]
         }, {
-            title: "Constitution Hall",
+            title: "宪政大厅",
             coords: [{
                 lng: -77.0394695,
                 lat: 38.8921101
@@ -24678,7 +24678,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.8921101
             }]
         }, {
-            title: "Downtown West",
+            title: "西下城区",
             coords: [{
                 lng: -77.0394373,
                 lat: 38.9013535
@@ -24699,7 +24699,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.9013535
             }]
         }, {
-            title: "Foggy Bottom",
+            title: "雾谷",
             coords: [{
                 lng: -77.0467114,
                 lat: 38.8921017
@@ -24750,7 +24750,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.8921017
             }]
         }, {
-            title: "West Potomac Park",
+            title: "西波托马克公园",
             coords: [{
                 lng: -77.0554018,
                 lat: 38.8921518
@@ -24819,7 +24819,7 @@ document.createTextNode = (function(fn) {
                 lat: 38.8921518
             }]
         }, {
-            title: "Roosevelt Island",
+            title: "罗斯福岛",
             coords: [{
                 lng: -77.0665383,
                 lat: 38.8998506
